@@ -1,0 +1,302 @@
+body{
+    background-image: url(image/fundo.gif);
+    background-repeat: repeat-x;
+}
+
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 149px;
+    height: 151px;
+}
+
+#btModulos{
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    width: 171px;
+    height: 39px;
+}
+
+#btMaterial{
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    width: 167px;
+    height: 39px;
+}
+
+#btSalas{
+    position: absolute;
+    top: 91px;
+    left: 530px;
+    width: 172px;
+    height: 35px;
+}
+
+#menu{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 676px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    word-spacing: 10px;
+    color: #a0a0a0;
+    font-size: 15px;
+    font-family: arial;
+}
+
+#banner{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 575px;
+    height: 410px;
+    border: 1px solid #000000;
+}
+
+.lkmenu{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: bold;
+}
+
+.lkmenu:hover{
+    color: #003333;
+}
+
+#main{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 770px;
+    margin-left: -385px;
+}
+
+#Hogwarts {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+#Hogwarts h2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#Hogwarts p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+#Hogwarts img {
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: 665px;
+}
+
+#Escola {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+#Escola h2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#Escola p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+#Escola img {
+    display: block;
+    margin: 20px auto;
+    width: 760px;
+    height: 398px;
+}
+
+#professores {
+    display: flex;
+    margin-top: 170px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.prof {
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.prof h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.prof p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.prof img {
+    width: 191px;
+    height: 277px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#alunos {
+    text-align: center;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+#alunos h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#alunos p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.casa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.casa h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    width: 45%;
+    background-image: linear-gradient(to left, #740001, #1a472a, #b5860e, #0e1a40);
+    color: transparent;
+    background-clip: text;
+}
+
+.casa p {
+    font-size: 1.1em;
+    width: 45%;
+}
+
+.casa img {
+    width: 250px;
+    height: 284px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#navigation button:hover {
+    transform: scale(1.1);
+}
+
+.btn-grifinoria {
+    background-color: #ae0001;
+    color: #fff;
+}
+
+.btn-grifinoria:hover {
+    background-color: #740001;
+}
+
+.btn-sonserina {
+    background-color: #2a623d;
+    color: #fff;
+}
+
+.btn-sonserina:hover {
+    background-color: #1a472a;
+}
+
+.btn-lufalufa {
+    background-color: #d89c00;
+    color: #fff;
+}
+
+.btn-lufalufa:hover {
+    background-color: #b5860e;
+}
+
+.btn-corvinal {
+    background-color: #222f5b;
+    color: #fff;
+}
+
+.btn-corvinal:hover {
+    background-color: #0e1a40;
+}
+
+#faleConosco {
+    text-align: center;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+#faleConosco h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#faleConosco p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#meios {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+#meios h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#meios p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    width: 80%; /* Ajusta a largura do texto */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#meios img {
+    width: 500px;  /* Largura fixa */
+    height: 450px; /* Altura fixa */
+    object-fit: cover; /* A imagem vai cobrir o espaço sem distorção */
+    border-radius: 8px;
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+}
