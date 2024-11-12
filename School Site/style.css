@@ -60,12 +60,12 @@ body{
 
 .lkmenu{
     text-decoration: none;
-    color: #a0a0a0;
+    color: #000000;
     font-weight: bold;
 }
 
 .lkmenu:hover{
-    color: #003333;
+    color: #9e0909;
 }
 
 #main{
@@ -77,20 +77,19 @@ body{
 }
 
 #Hogwarts {
-    text-align: justify;
     margin: 20px;
     margin-top: 200px;
 }
 
 #Hogwarts h2 {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.4em;
 }
 
 #Hogwarts p {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #Hogwarts img {
@@ -101,20 +100,19 @@ body{
 }
 
 #Escola {
-    text-align: justify;
     margin: 20px;
     margin-top: 200px;
 }
 
 #Escola h2 {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.4em;
 }
 
 #Escola p {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #Escola img {
@@ -131,6 +129,7 @@ body{
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
+    text-align: center;
 }
 
 .prof {
@@ -140,7 +139,7 @@ body{
 }
 
 .prof h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
@@ -157,19 +156,27 @@ body{
 }
 
 #alunos {
-    text-align: center;
     margin: 20px;
     margin-top: 200px;
 }
 
 #alunos h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
 #alunos p {
     font-size: 1em;
     line-height: 1.6;
+    text-align: center;
+}
+
+#alunos img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
 }
 
 .casa {
@@ -189,6 +196,7 @@ body{
     background-image: linear-gradient(to left, #740001, #1a472a, #b5860e, #0e1a40);
     color: transparent;
     background-clip: text;
+    text-align: center
 }
 
 .casa p {
@@ -205,6 +213,8 @@ body{
 
 #navigation {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 #navigation button {
@@ -258,7 +268,6 @@ body{
 }
 
 #faleConosco {
-    text-align: center;
     margin: 20px;
     margin-top: 200px;
 }
@@ -266,11 +275,17 @@ body{
 #faleConosco h2 {
     font-size: 1.2em;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+#faleConosco h3 {
+    font-size: 1.4em;
 }
 
 #faleConosco p {
     font-size: 1em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #meios {
@@ -281,22 +296,217 @@ body{
 }
 
 #meios h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 15px;
 }
 
 #meios p {
     font-size: 1em;
     margin-bottom: 20px;
-    width: 80%; /* Ajusta a largura do texto */
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #meios img {
-    width: 500px;  /* Largura fixa */
-    height: 450px; /* Altura fixa */
-    object-fit: cover; /* A imagem vai cobrir o espaço sem distorção */
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
     border-radius: 8px;
-    margin-top: 20px; /* Espaço entre o texto e a imagem */
+    margin-top: 20px;
+}
+
+#modulos {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+#modulos  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#modulos > p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.modulo-botao-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.modulo-botao {
+    background-color: #2980b9;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.modulo-botao:hover {
+    background-color: #3498db;
+}
+
+.modulo-botao:focus {
+    outline: none;
+}
+
+.modulo-botao:active {
+    background-color: #1dd7e4;
+}
+
+.modulo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.modulo h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.modulo p {
+    font-size: 16px;
+    color: #000000;
+    text-align: justify;
+}
+
+#materiais {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+#materiais > h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#materiais > p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.material-botao-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.material-botao {
+    background-color: #2980b9;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.material-botao:hover {
+    background-color: #3498db;
+}
+
+.material-botao:focus {
+    outline: none;
+}
+
+.material-botao:active {
+    background-color: #1dd7e4;
+}
+
+.material {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.material h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.material p {
+    font-size: 16px;
+    color: #000000;
+    text-align: justify;
+}
+
+#salas {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+#salas > h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#salas > p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.sala {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sala h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.sala p {
+    font-size: 16px;
+    color: #000000;
+    text-align: justify;
 }

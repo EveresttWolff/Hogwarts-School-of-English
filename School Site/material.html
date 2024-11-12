@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts School of English</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="material.js"></script>
+<div id="main">
+    <div id="logo"><img src="image/logo.JPG"></div>
+    <div id="btModulos"><a href="modulos.html" target="_self"><img src="image/bt_modulos.PNG" border="0" onMouseOver="this.src='image/bt_modulos2.PNG'" onmouseout="this.src='image/bt_modulos.PNG'"></a></div>
+    <div id="btMaterial"><a href="material.html" target="_self"><img src="image/bt_material.PNG" border="0" onMouseOver="this.src='image/bt_material2.PNG'" onmouseout="this.src='image/bt_material.PNG'"></a></div>
+    <div id="btSalas"><a href="salas.html" target="_self"><img src="image/bt_salas.PNG" border="0" onMouseOver="this.src='image/bt_salas2.PNG'" onmouseout="this.src='image/bt_salas.PNG'"></a></div>
+    <div id="menu">
+        <a href="index.html" target="_self" class="lkmenu">Home</a> -
+        <a href="escola.html" target="_self" class="lkmenu">A Escola</a> -
+        <a href="inst.html" target="_self" class="lkmenu">Institucional</a> -
+        <a href="aluno.html" target="_self" class="lkmenu">Alunos</a> -
+        <a href="prof.html" target="_self" class="lkmenu">Professores</a> -
+        <a href="form.html" target="_self" class="lkmenu">Fale Conosco</a>
+    </div>
+    <div id="materiais">
+        <h2>Materiais de estudo</h2>
+        <p>Os materiais de estudo oferecidos pela Hogwarts School são pensados para fornecer uma base sólida e diversificada, que abrange tanto as necessidades acadêmicas formais quanto as experiências imersivas. Aqui listamos os principais tipos de materiais que os alunos usam durante seus estudos.</p>
+        
+        <div class="material-botao-container">
+            <button class="material-botao" onclick="mostrarMaterial(1)">Material 1</button>
+            <button class="material-botao" onclick="mostrarMaterial(2)">Material 2</button>
+            <button class="material-botao" onclick="mostrarMaterial(3)">Material 3</button>
+            <button class="material-botao" onclick="mostrarMaterial(4)">Material 4</button>
+        </div>
+
+        <div id="material-1" class="material">
+            <h2>Livros de texto</h2>
+            <p>- Gramática e Sintaxe: Textos como "The Complete Grammar of English" e "Syntax Simplified" são usados para aulas de estrutura linguística, com foco nas regras e na flexibilidade da língua.</p>
+            <p>- Literatura Inglesa: Obras de referência como "The Oxford Companion to English Literature" e "The Norton Anthology of English Literature" são fundamentais para as aulas de literatura comparada e interpretação de textos.</p>
+            <p>- Leitura Criativa e Produção Textual: Guias como "Writing the English Novel" e "Creative Writing Essentials" oferecem orientação prática e teórica para a escrita criativa dos alunos.</p>
+            <p>- Retórica e Comunicação Oral: Textos como "Rhetoric in the English Language" e "The Art of Public Speaking" são usados para aprimorar as habilidades orais e de debate.</p>
+        </div>
+
+        <div id="material-2" class="material">
+            <h2>Material audiovisual</h2>
+            <p>- Áudios e Vídeos de Pronúncia: Aulas de fonologia são acompanhadas por gravações de diferentes sotaques britânicos e norte-americanos, bem como vídeos de apresentações e discursos para análise de oratória.</p>
+            <p>- Filmes e Documentários Literários: Os alunos assistem a filmes e documentários sobre escritores clássicos e movimentos literários, como "Shakespeare in Love" ou "The Brontë Sisters", para complementar suas leituras.</p>
+        </div>
+
+        <div id="material-3" class="material">
+            <h2>Cadernos e Diários de leitura</h2>
+            <p>- Cadernos de Reflexão Literária: Cada aluno possui um caderno onde registra suas interpretações pessoais de obras literárias, reflexões sobre os textos lidos e anotações durante as aulas.</p>
+            <p>- Diários Criativos: Usados nas aulas de escrita criativa, os diários ajudam os alunos a desenvolver ideias, explorar estilos de escrita e registrar inspirações para seus projetos.</p>
+        </div>
+
+        <div id="material-4" class="material">
+            <h2>Plataformas Online de aprendizado</h2>
+            <p>- Plataforma Hogwarts Digital: Um sistema online exclusivo onde os alunos acessam artigos acadêmicos, assistem a palestras virtuais e interagem em fóruns sobre temas literários e linguísticos.</p>
+            <p>- Ferramentas de Colaboração: Ferramentas como Google Docs e Padlet são usadas para promover a colaboração em grupo em projetos de escrita, análise de textos e debates.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

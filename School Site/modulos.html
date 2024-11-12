@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts School of English</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="modulos.js"></script>
+<div id="main">
+    <div id="logo"><img src="image/logo.JPG"></div>
+    <div id="btModulos"><a href="modulos.html" target="_self"><img src="image/bt_modulos.PNG" border="0" onMouseOver="this.src='image/bt_modulos2.PNG'" onmouseout="this.src='image/bt_modulos.PNG'"></a></div>
+    <div id="btMaterial"><a href="material.html" target="_self"><img src="image/bt_material.PNG" border="0" onMouseOver="this.src='image/bt_material2.PNG'" onmouseout="this.src='image/bt_material.PNG'"></a></div>
+    <div id="btSalas"><a href="salas.html" target="_self"><img src="image/bt_salas.PNG" border="0" onMouseOver="this.src='image/bt_salas2.PNG'" onmouseout="this.src='image/bt_salas.PNG'"></a></div>
+    <div id="menu">
+        <a href="index.html" target="_self" class="lkmenu">Home</a> -
+        <a href="escola.html" target="_self" class="lkmenu">A Escola</a> -
+        <a href="inst.html" target="_self" class="lkmenu">Institucional</a> -
+        <a href="aluno.html" target="_self" class="lkmenu">Alunos</a> -
+        <a href="prof.html" target="_self" class="lkmenu">Professores</a> -
+        <a href="form.html" target="_self" class="lkmenu">Fale Conosco</a>
+    </div>
+    <div id="modulos">
+        <h2>Módulos</h2>
+        <p>Hogwarts School of English conta com 7 módulos, que são estruturados para proporcionar aos alunos um aprendizado progressivo, de modo a cobrir os aspectos fundamentais da língua inglesa, suas formas mais criativas e suas aplicações práticas. Cada módulo é cuidadosamente planejado para ser interativo e desafiador.</p>
+        
+        <div class="modulo-botao-container">
+            <button class="modulo-botao" onclick="mostrarModulo(1)">Módulo 1</button>
+            <button class="modulo-botao" onclick="mostrarModulo(2)">Módulo 2</button>
+            <button class="modulo-botao" onclick="mostrarModulo(3)">Módulo 3</button>
+            <button class="modulo-botao" onclick="mostrarModulo(4)">Módulo 4</button>
+            <button class="modulo-botao" onclick="mostrarModulo(5)">Módulo 5</button>
+            <button class="modulo-botao" onclick="mostrarModulo(6)">Módulo 6</button>
+            <button class="modulo-botao" onclick="mostrarModulo(7)">Módulo 7</button>
+        </div>
+
+        <div id="modulo-1" class="modulo">
+            <h2>Módulo 1: Gramática e Estrutura da Língua Inglesa</h2>
+            <p>Objetivo: Garantir que os alunos dominem as bases da língua inglesa, com foco na gramática, sintaxe e vocabulário.</p>
+            <p>- Conteúdo: Concordância verbal, tempos verbais, pronomes, preposições, construção de frases.</p>
+            <p>- Métodos: Análises gramaticais de textos, exercícios de preenchimento de lacunas, quizzes interativos.</p>
+            <p>- Avaliação: Testes semanais, redações e análises de textos com foco na correção gramatical.</p>
+        </div>
+
+        <div id="modulo-2" class="modulo">
+            <h2>Módulo 2: Leitura e Interpretação de Textos</h2>
+            <p>Objetivo: Desenvolver a habilidade de interpretar textos literários e não literários, com uma compreensão crítica dos temas e da estrutura.</p>
+            <p>- Conteúdo: Leitura de obras clássicas (Shakespeare, Austen, Dickens), interpretação de metáforas, análise de temas e simbolismos.</p>
+            <p>- Métodos: Discussões em grupo, análise de textos em sala, leitura em voz alta, escrita de resumos interpretativos.</p>
+            <p>- Avaliação: Trabalhos de análise textual, apresentações orais sobre interpretações literárias.</p>
+        </div>
+
+        <div id="modulo-3" class="modulo">
+            <h2>Módulo 3: Produção Textual Criativa</h2>
+            <p>Objetivo: Estimular os alunos a escreverem de forma criativa, explorando diferentes gêneros literários e aprimorando sua capacidade de contar histórias.</p>
+            <p>- Conteúdo: Escrita de ficção, poesia, contos curtos, construção de personagens e enredos.</p>
+            <p>- Métodos: Exercícios de escrita livre, brainstorming, oficinas de escrita em grupo.</p>
+            <p>- Avaliação: Redações criativas, projetos de contos e poesias, leitura e crítica entre pares.</p>
+        </div>
+
+        <div id="modulo-4" class="modulo">
+            <h2>Módulo 4: Retórica e Comunicação Oral</h2>
+            <p>Objetivo: Ensinar os alunos a se comunicarem de forma clara, eficaz e persuasiva, com ênfase na retórica clássica e na prática de apresentações.</p>
+            <p>- Conteúdo: Técnicas de argumentação, construção de discursos, análise de discursos históricos e contemporâneos.</p>
+            <p>- Métodos: Simulações de debates, discursos públicos, análise de grandes oradores.</p>
+            <p>- Avaliação: Apresentações orais, debates e simulações de conferências, análise de retórica.</p>
+        </div>
+
+        <div id="modulo-5" class="modulo">
+            <h2>Módulo 5: Literatura Comparada</h2>
+            <p>Objetivo: Explorar as interações entre a literatura inglesa e outras tradições literárias, identificando influências e contrastes entre diferentes culturas e períodos.</p>
+            <p>- Conteúdo: Comparação de obras britânicas e internacionais, estudo de movimentos literários e suas influências globais.</p>
+            <p>- Métodos: Leitura comparativa de textos, discussões sobre o contexto histórico e cultural de diferentes autores.</p>
+            <p>- Avaliação: Ensaios comparativos, apresentações sobre temas literários globais.</p>
+        </div>
+
+        <div id="modulo-6" class="modulo">
+            <h2>Módulo 6: Linguística e Fonologia</h2>
+            <p>Objetivo: Aperfeiçoar as habilidades de fala e compreensão auditiva, focando na fonologia e nos aspectos sonoros da língua inglesa.</p>
+            <p>- Conteúdo: Estudo de fonemas, variações dialetais, entonação e ritmo da língua.</p>
+            <p>- Métodos: Prática de pronúncia, exercícios auditivos, gravações de fala.</p>
+            <p>- Avaliação: Gravação de discursos, testes de pronúncia e compreensão auditiva.</p>
+        </div>
+
+        <div id="modulo-7" class="modulo">
+            <h2>Módulo 7: Redação Técnica e Comunicação Profissional</h2>
+            <p>Objetivo: Ensinar aos alunos a escrever de maneira clara, objetiva e formal para o contexto acadêmico e profissional.</p>
+            <p>- Conteúdo: Redação de relatórios, e-mails formais, artigos acadêmicos, resumos de pesquisa.</p>
+            <p>- Métodos: Análise de modelos de textos profissionais, exercícios de escrita técnica, revisão entre pares.</p>
+            <p>- Avaliação: Redações técnicas, relatórios, resumos de livros ou artigos.</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
